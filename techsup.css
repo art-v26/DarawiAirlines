@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color:#333;
+  background: #fff; 
+  font-family: century gothic;
+  font-size:0.94em;
+  line-height:135%;
+  
+}
+
+aside, nav, footer, header, section { display: block; }
+
+h2 {
+	font-size: 20px;
+}
+
+h1 {
+	font-family:verdana;
+}
+
+ul {
+  list-style:none;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+.zagolovokh1 {
+	padding-left: 337px;
+	padding-top: 70px;
+	color: #FF0000; 
+}
+
+.zagolovokh2 {
+	padding-left: 337px;
+	padding-top: 40px;
+	padding-bottom: 90px;
+}
+
+.welc {
+	padding-left: 680px;
+	padding-top: 60px;
+	padding-bottom: 90px;
+}
+
+.zagolovokh3 {
+	padding-left: 337px;
+	padding-top: 60px;
+}
+
+#abz {
+	padding-left: 337px;
+	padding-top: 40px;
+	font-size: 15px;
+	word-spacing: 4px;
+	margin-right: 287px;
+	line-height: 3;
+}
+
+#abz1 {
+	padding-left: 337px;
+	padding-top: 40px;
+	font-size: 15px;
+	word-spacing: 4px;
+	margin-right: 125px;
+	line-height: 3;
+	float: left;
+}
+
+#abz2 {
+	padding-left: 30px;
+	padding-top: 40px;
+	font-size: 15px;
+	word-spacing: 4px;
+	margin-right: 10px;
+	line-height: 3;
+}
+
+/* -------------------------------
+Главные блоки
+----------------------------------*/
+
+#wrapper {
+        margin-top:40px;
+        width: 1200px;
+	margin: 0 auto;
+	height: auto  !important;
+        }
+
+.header{
+        width:100%;
+        background: #e50d0d;
+        height:57px;
+	z-index: 4;
+        }
+
+#headerInner {
+        position:relative;
+        border:0px solid #333;
+        width:1200px;
+        height:250px;
+	margin:0 auto;
+        margin-top:0px;
+	}
+
+
+#content {
+        margin-top:40px; 
+}
+
+#content #colLeft {
+        background: #fff;
+	float:left;
+	width:800px;
+	margin-right:0px;
+        }
+
+#content #colRight {
+        margin-left:45px;
+        float:left;
+	width:350px;
+	position:relative;
+}
+
+#middle:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
+/* -------------------------------
+Шапка сайта
+----------------------------------*/
+
+.bottomMenu {  
+        width:1200px;
+        height: 70px;
+        position:absolute;
+	left:0px;
+	bottom:0px;
+        background: url(images/bgmenu.png) 0px 0px repeat-x;
+ }
+
+#dropdown_nav {
+        font-weight:bold;
+	display:inline-block;
+	list-style:none;
+        border-bottom:0px solid #777;
+	margin-top:18px;
+        }
+
+	#dropdown_nav li {
+                float:left;
+		position:relative;
+		display:inline-block;
+                
+	}
+
+		#dropdown_nav li a {
+         
+                        font-weight:100;
+                        font-size:18px;
+                        color:#fff;
+			padding:15px 22px 20px 22px;
+			background: url(images/linemenu.png) right no-repeat;
+                        -moz-transition: background-color 0.3s 0.01s ease;
+                        -o-transition: background-color 0.3s 0.01s ease;
+                        -webkit-transition: background-color 0.3s 0.01s ease;
+		}
+		#dropdown_nav li a:hover {
+                        background: #000;
+                        text-decoration:none;
+                        color:#e50d0d;
+			}
+		
+                #dropdown_nav li a.first {
+			-moz-border-radius:5px 0px 0px 5px;
+			-webkit-border-radius:5px 0px 0px 5px;
+		}
+		
+
+		/* Выпадающее меню */
+		#dropdown_nav .sub_nav {
+                        z-index: 4;
+			width:180px;
+			padding:0px;
+			position:absolute;
+			top:42px;
+			left:0px;
+                        border:0px solid #ddd;
+                        border-top:none;
+			background: #000;
+                       }
+
+			
+/* -------------------------------
+      Блок "Последние посты"
+----------------------------------*/
+
+#lpblock {
+        background: #eee;
+        position:relative;
+        width: 1200px;
+        height:100px;
+	margin:0 auto;
+        margin-top:193px;
+        }
+
+#lpblock h2 {
+        text-align: center;
+        font-family: "Segoe UI Semilight";
+        color:#b2b2b2;
+        font-weight:100;
+        padding-top:35px;
+        font-size:3em;
+        }
+
+/*----------------------------
+          Логотип
+------------------------------*/
+
+.logo {
+        position:absolute;
+	left:0px;
+	top:90px;
+        }
+
+.logotext {
+        font-size:35px;
+        position:absolute;
+	left:95px;
+	top:105px;
+        }
+
+.logotext a {
+        text-shadow: #663838 3px 5px 1px;
+        font-weight:bold;
+        font-style:italic;
+        color:#fbdada;
+        }
+
+
+/*----------------------------
+       Основной контент
+------------------------------*/
+.photo1 {
+	padding-left: 810px;
+	padding-top: 70px;
+}
+/*----------------------------
+       Инфо панель
+------------------------------*/
+.info {
+        width:100%;
+        margin-bottom:20px;
+        margin-top:20px;
+        font-size:14px;
+	line-height:100%;
+	color:#999;
+        }
+
+.info a {
+        color:#777;
+        }
+
+.info a:hover {
+        color:#4991bb;
+        }
+
+/*----------------------------
+       Конец Инфо панель
+------------------------------*/
+
+.rightBox {
+        margin-top:0px;
+        margin-left:0px;
+        width:330px;
+        margin-bottom:30px;
+        }
+
+.rightBox h2 {
+        width:335px;
+        background:#f7f7f7 url(images/h2img.png) 320px 14px no-repeat;
+        font-size:18px;
+	font-family: "Segoe UI Semibold", Tahoma, Helvetica, Sans-Serif;
+	color:#333;
+	display:block;
+	padding:10px 0 15px 20px;
+}
+
+.rightBox ul li{
+        width:350px;
+	padding:10px 0px;
+	border-bottom:1px solid #f6f6f6; 
+        font-size:14px;
+        line-height: 16px;
+        }
+
+.rightBox a {
+	color:#333;
+        }
+
+.rightBox a:hover {
+	color: #e50d0d;
+        }
+
+/*----------------------------
+Конец FOOTER наверх
+------------------------------*/
+
+#footer {
+        margin-top:50px;
+        height:100px;
+        width:100%px;
+	background: #e50d0d;
+        }
+
+#footerInner {
+        position:relative;
+        border:0px solid #000;
+        width:1200px;
+	margin:0 auto;
+        height:100px;
+        }
+
+#footerlogo {
+        position:absolute;
+	left:0px;
+	top:25px;
+        }
+
+.footernav {
+        position:absolute;
+	right:0px;
+	top:35px;
+        }
+
+.footernav ul li {
+        float:left;
+        }
+
+
+
+.footernav ul li a:hover{
+        color:#333;
+	}
+
+/* --------------------------------
+Формы
+-----------------------------------*/
+
+#form-query {
+        position:relative;
+        background:#eeeeee;
+	border:0px solid #e4e4e4;
+	width:335px;
+        height:31px;
+	padding:8px 10px 7px;
+	font-weight:100;
+	font-size:18px;
+	color:#000;
+	margin-bottom: 30px;
+}
+
+#form-querysub {
+        position:absolute;
+	right:15px;
+	top:15px;
+	width:17px;
+	height:17px;
+	background:url(images/search.png) 0px 0px no-repeat;
+	border:0px dashed #333;
+	}
+
+#form-querysub:hover {
+	cursor: pointer;
+}
+
+#h2b {
+	font-size: 30px;
+	padding-top: 30px;
+	font-family: century gothic;
+	color: #FFFFFF;
+}
+
+#pb {
+	color: #FFFFFF;
+	padding-top: 10px;
+	font-size: 20px;
+	float: left;
+}
+
+#class {
+	float:left;
+	font-size:40px;
+}
+
