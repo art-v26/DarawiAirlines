@@ -45,12 +45,12 @@ a:hover {
 .zagolovokh2 {
 	padding-left: 200px;
 	padding-top: 30px;
+	float: left;
 }
 
 .zagolovokh3 {
 	padding-left: 337px;
 	padding-top: 60px;
-	float: left;
 
 #abz {
 	padding-left: 337px;
