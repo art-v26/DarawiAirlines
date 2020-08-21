@@ -30,6 +30,7 @@ ul {
 
 a {
   text-decoration:none;
+	padding-top: 3px;
 }
 
 a:hover {
